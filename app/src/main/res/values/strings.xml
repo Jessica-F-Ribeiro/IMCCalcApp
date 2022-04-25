@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IMC Calc App</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="valida_peso">Informe o peso</string>
+    <string name="valida_altura">Informe a altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="resultado"></string>
+    <string name="classificacao"></string>
+    <string name="abaixo">Abaixo do peso</string>
+    <string name="normal">Peso Normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="grau_I">Obesidade Grau I</string>
+    <string name="grau_II">Obesidade Grau II</string>
+    <string name="grau_III">Obesidade Grau III ou Mórbida</string>
+    <string-array name="array_genero">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+</resources>

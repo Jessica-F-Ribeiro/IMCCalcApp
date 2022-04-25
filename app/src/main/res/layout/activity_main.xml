@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/text_view"
+        android:text="@string/peso" />
+
+    <EditText
+        android:id="@+id/edit_peso"
+        style="@style/edit_text" />
+
+    <TextView
+        style="@style/text_view"
+        android:text="@string/altura" />
+
+    <EditText
+        android:id="@+id/edit_altura"
+        style="@style/edit_text" />
+
+    <Spinner
+        android:id="@+id/spinner_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_genero"
+        android:spinnerMode="dropdown" />
+
+    <RadioGroup
+        android:id="@+id/group_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino" />
+
+        <RadioButton
+            android:id="@+id/radio_masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino" />
+
+    </RadioGroup>
+
+    <LinearLayout style="@style/estilo_base">
+
+        <Button
+            android:id="@+id/bt_calcular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/bt_limpar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="@string/limpar" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/resultado"
+        style="@style/edit_text"
+        android:text="@string/resultado" />
+
+    <EditText
+        android:id="@+id/classificacao"
+        style="@style/edit_text"
+        android:text="@string/classificacao" />
+</LinearLayout>
